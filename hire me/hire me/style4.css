@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding: 20px;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+}
+.heading h1 {
+  color: #42a5f5;
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 45px;
+}
+.sub {
+  display: flex;
+  justify-content: center;
+}
+.sub p {
+  font-family: "Delius", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 120px;
+  padding: 50px;
+}
+.content-one {
+  text-align: center;
+  height: 470px;
+  width: 500px;
+  position: relative;
+}
+.content-one img {
+  height: 23px;
+  width: 35px;
+}
+.deny {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 600;
+  font-size: 17px;
+  position: absolute;
+  left: 65px;
+}
+.box {
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 25px;
+}
+.score {
+  margin-top: 10px;
+  color: #42a5f5;
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 55px;
+}
+.win {
+  display: flex;
+  padding: 10px;
+}
+.present {
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.box-2 {
+  height: 150px;
+  width: 255px;
+  margin-top: 20px;
+  background-color: #d9d9d9;
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+  position: absolute;
+  left: 120px;
+}
+.box-ten {
+  height: 470px;
+  width: 500px;
+  margin-right: 160px;
+}
+.fourty {
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+
+font-size: 25px;
+}
+.course {
+  margin-left: 130px;
+  margin-top: 30px;
+  height: 30px;
+  width: 250px;
+  border: 1px solid #d9d9d9;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 10px;
+}
+.course a {
+  text-decoration: none;
+  color: black;
+}
+.article {
+  margin-left: 130px;
+  margin-top: 20px;
+  height: 30px;
+  width: 250px;
+  border: 1px solid #d9d9d9;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 10px;
+}
+.article a {
+  text-decoration: none;
+  color: black;
+}
+@media screen and (max-width: 1024px) {
+  .content-one img {
+    height: 23px;
+    width: 25px;
+  }
+  .deny {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 600;
+    font-size: 17px;
+    position: absolute;
+    left: 38px;
+  }
+  .fourty {
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 50px;
+  }
+  .heading {
+    display: flex;
+    justify-content: center;
+  }
+  .content {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+  }
+  .box-2 {
+    height: 150px;
+    width: 255px;
+    margin-top: 20px;
+    background-color: #d9d9d9;
+    border: 1px solid #d9d9d9;
+    border-radius: 10px;
+    position: absolute;
+    left: 90px;
+  }
+  .box-ten {
+    height: 470px;
+    width: 500px;
+    margin-right: 0px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+  }
+  .sub {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+  }
+  .box-2 {
+    left: 125px;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 30px;
+  }
+  .content-one img {
+    height: 23px;
+    width: 40px;
+  }
+  .box-ten {
+    height: 300px;
+    width: 500px;
+    margin-bottom: 0px;
+  }
+  .deny {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 600;
+    font-size: 16px;
+    position: absolute;
+    left: 70px;
+  }
+  .fourty {
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .deny {
+    margin-top: 30px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 600;
+    font-size: 16px;
+    position: absolute;
+    left: 100px;
+  }
+  .content-one img {
+    height: 23px;
+    width: 40px;
+  }
+}

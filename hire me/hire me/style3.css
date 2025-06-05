@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+}
+.heading h1 {
+  color: #42a5f5;
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 45px;
+}
+.sub {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.sub p {
+  font-family: "Delius", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.content {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.box {
+  font-family: "Comic Neue", cursive;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 30px;
+}
+.score {
+  margin-top: 20px;
+  color: #42a5f5;
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 55px;
+}
+.confirm {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-top: 10px;
+}
+.picture-one {
+  height: 50px;
+  width: 40px;
+}
+.approve {
+  display: flex;
+  padding: 15px;
+}
+.confetti {
+  position: absolute;
+  top: -10px;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  animation: fall 5s linear infinite;
+  border-radius: 50%;
+  opacity: 0.7;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  100% {
+    transform: translateY(100vh) rotate(360deg);
+  }
+}
+.picture-two {
+  margin-top: 20px;
+  height: 280px;
+  width: 750px;
+}
+@media screen and (max-width: 1440px) {
+  /* .picture-one {
+    height: 50px;
+    width: 50px;
+  } */
+}
+
+@media screen and (max-width: 1024px) {
+  /* .picture-one {
+    height: 50px;
+    width: 50px;
+  } */
+}
+@media screen and (max-width: 768px) {
+  /* .picture-one {
+    height: 50px;
+    width: 50px;
+  } */
+}
+
+@media screen and (max-width: 430px) {
+  * {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .container {
+    padding-left: 20px;
+    margin-left: 20px;
+  }
+  .heading h1 {
+    color: #42a5f5;
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 45px;
+    text-align: center;
+  }
+  .sub p {
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+    height: 40px;
+    width: 400px;
+    text-align: center;
+  }
+
+  .confirm {
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .confetti {
+    position: absolute;
+    top: -10px;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    animation: fall 5s linear infinite;
+    border-radius: 50%;
+    opacity: 0.7;
+  }
+
+  .picture-two {
+    margin-top: 20px;
+    height: 380px;
+    width: 850px;
+  }
+}

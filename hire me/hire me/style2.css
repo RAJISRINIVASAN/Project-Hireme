@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.heading h1 {
+  color: #42a5f5;
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 45px;
+}
+.sub {
+  display: flex;
+  justify-content: center;
+}
+.sub p {
+  font-family: "Delius", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.sub-title {
+  height: 450px;
+  width: 500px;
+  margin: 40px;
+  padding: 30px;
+  position: relative;
+}
+.type-head {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center;
+}
+.type-one {
+  position: absolute;
+  top: 140px;
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-size: 30px;
+  font-style: normal;
+}
+.type-two {
+  position: absolute;
+  top: 215px;
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-size: 30px;
+  font-style: normal;
+}
+.box-2 input {
+  position: absolute;
+  right: 30px;
+  top: 140px;
+  height: 33px;
+  width: 247px;
+  background-color: rgb(237, 217, 217);
+  border: none;
+  border-radius: 30px;
+  padding-left: 10px;
+}
+.box-3 input {
+  position: absolute;
+  right: 30px;
+  top: 215px;
+  height: 33px;
+  width: 247px;
+  background-color: rgb(237, 217, 217);
+  border: none;
+  border-radius: 30px;
+  padding-left: 10px;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 50px;
+  padding-left: 100px;
+}
+.picture img {
+  height: 450px;
+  width: 450px;
+  padding-top: 40px;
+  padding-right: 80px;
+}
+.dot-one h2 {
+  position: absolute;
+  right: 310px;
+  top: 140px;
+}
+.dot-two h2 {
+  position: absolute;
+  right: 310px;
+  top: 215px;
+}
+.correction {
+  display: flex;
+  justify-content: center;
+}
+.analyze {
+  position: absolute;
+  bottom: 30px;
+  height: 160px;
+  width: 250px;
+  margin-top: 40px;
+  margin-right: 20px;
+  border: 3px solid black;
+}
+.analyze img {
+  height: 50px;
+  width: 55px;
+  margin: 25px;
+  margin-left: 100px;
+}
+.analyze h3 {
+  font-family: "Akaya Kanadaka", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: -30px;
+  padding-left: 60px;
+}
+.analyze button {
+  margin-top: 20px;
+  margin-left: 75px;
+  padding: 5px;
+  width: 100px;
+  border-radius: 16px;
+  background-color: #42a5f5;
+  border: 1px solid #42a5f5;
+  font-family: "Tinos", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.analyze a {
+  text-decoration: none;
+  color: white;
+}
+.analyze button:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .sub-title {
+    height: 450px;
+    margin: 50px;
+    padding: 0px;
+    position: relative;
+  }
+  .heading {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .dot-one {
+    position: absolute;
+    right: -50px;
+    top: -34px;
+  }
+  .dot-two {
+    position: absolute;
+    right: -50px;
+    top: -35px;
+  }
+  .box-2 input {
+    position: absolute;
+    right: 20px;
+    top: 100px;
+    height: 33px;
+    width: 220px;
+    background-color: rgb(237, 217, 217);
+    border: none;
+    border-radius: 30px;
+  }
+  .box-3 input {
+    position: absolute;
+    right: 20px;
+    top: 180px;
+    height: 33px;
+    width: 220px;
+    background-color: rgb(237, 217, 217);
+    border: none;
+    border-radius: 30px;
+  }
+  .type-one {
+    position: absolute;
+    left: 30px;
+    top: 100px;
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-size: 30px;
+    font-style: normal;
+  }
+  .type-two {
+    position: absolute;
+    left: 30px;
+    top: 180px;
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-size: 30px;
+    font-style: normal;
+  }
+  .analyze {
+    position: absolute;
+    bottom: 0px;
+    height: 160px;
+    width: 250px;
+    margin-top: 40px;
+    margin-right: 20px;
+    border: 3px solid black;
+  }
+  .container {
+    margin-left: 125px;
+  }
+  .picture img {
+    height: 450px;
+    width: 450px;
+    padding-top: 0px;
+    padding-right: 0px;
+  }
+}

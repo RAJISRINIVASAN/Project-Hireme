@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.heading h1 {
+  color: #42a5f5;
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 45px;
+}
+.sub {
+  display: flex;
+  justify-content: center;
+}
+.sub p {
+  font-family: "Delius", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.content h1 {
+  color: #42a5f5;
+  font-family: "Baloo 2", cursive;
+  font-size: 40px;
+}
+.middle-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 80px;
+  margin-bottom: 0;
+  padding-left: 30px;
+}
+.title {
+  position: relative;
+  height: 300px;
+  width: 400px;
+}
+.content {
+  position: absolute;
+  top: 100px;
+}
+.content p {
+  padding-top: 10px;
+  font-family: "Delius", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.picture img {
+  padding-top: 20px;
+  padding-right: 30px;
+}
+.click {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.click button {
+  border: 2px solid #42a5f5;
+  border-radius: 20px;
+  width: 130px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+  font-family: "Delius", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.click a {
+  color: black;
+  text-decoration: none;
+}
+.click button:hover {
+  cursor: pointer;
+  border-color: blueviolet;
+}
+@media screen and (max-width: 1440px) {
+  .img {
+    padding-top: 20px;
+    padding-right: 30px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  /* .container {
+    margin-top: 50px;
+  } */
+  /* .heading {
+    margin-top: 0;
+  } */
+  .middle-container {
+    margin: 0px;
+  }
+  .img {
+    padding-top: 40px;
+    padding-right: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    margin: 0;
+    margin-top: 0;
+  }
+  .middle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+  }
+  .content {
+    position: relative;
+    top: 50px;
+  }
+  .title {
+    position: inherit;
+    height: 250px;
+  }
+  .img {
+    padding-top: 20px;
+    padding-right: 30px;
+  }
+  .click {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .middle-container {
+    padding-right: 18px;
+  }
+
+  .picture img {
+    padding-top: 0px;
+    padding-right: 0px;
+    width: 380px;
+  }
+}
